@@ -3,7 +3,6 @@
 ## Prereqs
 
 - [Homebrew](https://brew.sh/) - package installation systeem for macOS
-- [Docker](https://www.docker.com/) - app containerization
 
 ## Setup
 
