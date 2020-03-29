@@ -12,9 +12,9 @@
     <section class="app-wrap">
       <h1>Report Generator</h1>
       
-      <form name="download-spreadsheet" method="POST" id="downloadSpreadsheet">
+      <form name="download-spreadsheet" method="POST" action="../spreadsheet/download.php" id="downloadSpreadsheet">
         <label>Field List to export:</label>
-        <select id="fields" name="fields" multiple>
+        <select id="fields" name="fields[]" multiple size="10">
           <option value="id">id</option>
           <option value="firstname">firstname</option>
           <option value="lastname">lastname</option>

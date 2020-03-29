@@ -18,7 +18,8 @@
   student records, I understand that unauthorized access, release or re-release of confidential student information is    
   prohibited by law and may result in disciplinary action, including dismissal.\n";
 
-  $fieldList = array("id", "firstname", "major");
+  // $_POST['fields'] is the information coming from the form on html
+  $fieldList = $_POST['fields'];
 
   for ($i = 0; $i < count($fieldList); $i++) {
     echo $fieldList[$i] . "\t";
