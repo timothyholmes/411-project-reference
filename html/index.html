@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Getting dat Spreadsheet</title>
+
+    <link rel="stylesheet" type="text/css" href="../style/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+  </head>
+
+  <body>
+    <section class="app-wrap">
+      <h1>Report Generator</h1>
+      
+      <form name="download-spreadsheet" method="POST" id="downloadSpreadsheet">
+        <label>Field List to export:</label>
+        <select id="fields" name="fields" multiple>
+          <option value="id">id</option>
+          <option value="firstname">firstname</option>
+          <option value="lastname">lastname</option>
+          <option value="email">email</option>
+          <option value="level">level</option>
+          <option value="class">class</option>
+          <option value="major">major</option>
+          <option value="minor">minor</option>
+          <option value="hrs">hrs</option>
+          <option value="gpa">gpa</option>
+        </select>
+        <input type="submit" class="download-button" value="Download Spreadsheet" />
+      </form>
+    </section>
+  </body>
+</html>
